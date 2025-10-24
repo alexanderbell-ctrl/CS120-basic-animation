@@ -1,0 +1,26 @@
+I
+	- import pygame & initialize
+D
+	- create screen variable 640x480
+E
+	- create a background, size=screen size, red
+	- create a background, import image
+	- create a box: 25x25, black
+A
+	A
+		- create clock variable & keepGoing
+	L
+		- main while loop
+	T
+		- limit framerate to 30
+	E
+		- event handling: 
+			quit out of window
+			move box cords
+			if box reaches end, rest to other side
+			change background to red, then to image
+				odd = red (#/2 is not 0)
+				even = image
+				each loop --> counter +=1
+	R
+		- refresh background (blit & display.flip)
